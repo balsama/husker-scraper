@@ -19,4 +19,5 @@ while ($year_to_get >= $first_year) {
 }
 
 $renderer = new ArrayToTextTable($values);
+$renderer->setDecorator(new \Zend\Text\Table\Decorator\Ascii());
 echo $renderer->getTable();
