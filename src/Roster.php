@@ -60,7 +60,6 @@ class Roster
             'number' => $this->processNumber($html_table_row->find('.rost-num')->innerHtml),
             'name' => $html_table_row->find('.rost-name span')->innerHtml,
             'position' => $html_table_row->find('.rost-pos')->innerHtml,
-            'height' => $this->processHeight($html_table_row->find('.rost-ht')->innerHtml),
             'weight' => $html_table_row->find('.rost-wt')->innerHtml,
             'year' => $this->processYear($html_table_row->find('.rost-yr')->innerHtml),
             'city' => $html_table_row->find('.rost-city')->innerHtml,
@@ -84,7 +83,21 @@ class Roster
     protected function processHeight($dom_height) {
         $height = str_replace('<span style="display:none;">', '', $dom_height);
         $height = str_replace('</span>', '', $height);
+        // Some instances have curly quotes that need to be removed.
+        $height = $this->removeEverythingBeforeChar($height);
         return $height;
+    }
+
+    protected function removeEverythingBeforeChar($string, $char = ';') {
+        $string = strstr($string, $char);
+        if (strpos($string, $char) !== false) {
+            $string = ltrim($string, ';');
+            self::removeEverythingBeforeChar($string);
+        }
+        if (strlen($string > 6)) {
+            return 'unk';
+        }
+        return $string;
     }
 
     /**
@@ -150,7 +163,6 @@ class Roster
             'number',
             'name',
             'position',
-            'height',
             'weight',
             'year',
             'city',

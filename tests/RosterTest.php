@@ -34,4 +34,11 @@ class RosterTest extends TestCase
 
         $year_count = $roster->getClassCountByYear();
     }
+
+    public function testHeight() {
+        $roster = new Roster(2019);
+        $heights = $roster->getRosterArray(['height']);
+        $this->assertStringContainsString('foo', $heights[0]['height']);
+    }
+
 }

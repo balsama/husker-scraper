@@ -6,7 +6,7 @@ include_once 'vendor/autoload.php';
 use Balsama\HuskerScraper\Roster;
 
 $current_year = date("Y");
-$first_year = ($current_year - 100);
+$first_year = ($current_year - 57);
 $year_to_get = $current_year;
 
 while ($year_to_get >= $first_year) {
