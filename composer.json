@@ -1,0 +1,25 @@
+{
+    "name": "balsama/husker-scraper",
+    "description": "Scrapes team roster information from the DOM of huskermax.com",
+    "type": "library",
+    "require": {
+        "paquettg/php-html-parser": "~2.1.0",
+        "mathieuviossat/arraytotexttable": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Balsam",
+            "email": "balsam.adam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Balsama\\HuskerScraper\\": "src"
+        }
+    }
+}
