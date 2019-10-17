@@ -49,7 +49,10 @@ So I can do you one better than last 30 years and go back to 1962 when the data 
 | ---- | ---- | --- | --- | --- | --- |
 | 2019 | 32   | 46  | 28  | 24  | 24  |
 
-### Visual representation over the last 58 years:
+### Visual representation of upperclassmen vs rfr/fr/so since 1962:
+![Husker upper vs lower](images/husker-upperclassmen-vs.png)
+
+### Visual representation of all classes over the last since 1962:
 
 ![Husker Roster by Class](images/Husker-roster-class-membership-over-time.png)
 
