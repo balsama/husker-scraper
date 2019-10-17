@@ -46,7 +46,7 @@ So I can do you one better than last 30 years and go back to 1962 when the data 
 ### Actual numbers for this year:
 | Rfr | Fr | So | Jr | Sr |
 | - | - | - | - | - |
-| 32 | 46  │ 28  │ 24  │ 24 |
+| 32 | 46 │ 28  │ 24  │ 24 |
 
 ### Visual representation over the last 58 years:
 
@@ -54,9 +54,8 @@ So I can do you one better than last 30 years and go back to 1962 when the data 
 
 ### Full class data over last 58 years:
 
-+------+-----+-----+-----+-----+------+-------+
 | YEAR | FR. | SO. | JR. | SR. | RFR. | OTHER |
-+------+-----+-----+-----+-----+------+-------+
+| ---- | --- | --- | --- | --- | ---- | ----- |
 | 2019 | 46  | 28  | 24  | 24  | 32   |       |
 | 2018 | 40  | 29  | 28  | 19  | 23   |       |
 | 2017 | 32  | 26  | 26  | 21  | 24   |       |
@@ -115,7 +114,6 @@ So I can do you one better than last 30 years and go back to 1962 when the data 
 | 1964 |     | 36  | 21  | 16  |      |       |
 | 1963 |     | 34  | 24  | 15  |      |       |
 | 1962 |     | 20  | 21  | 17  |      | 2     |
-+------+-----+-----+-----+-----+------+-------+
 
 ### Full data over last 58 years:
 
