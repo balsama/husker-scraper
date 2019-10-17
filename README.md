@@ -45,9 +45,9 @@ So I can do you one better than last 30 years and go back to 1962 when the data 
 
 ### Actual numbers for this year:
 
-| YEAR | FR. | SO. | JR. | SR. | RFR. |
-| ---- | --- | --- | --- | --- | ---- |
-| 2019 | 46  | 28  | 24  | 24  | 32   |
+| YEAR | RFR. | FR. | SO. | JR. | SR. |
+| ---- | ---- | --- | --- | --- | --- |
+| 2019 | 32   | 46  | 28  | 24  | 24  |
 
 ### Visual representation over the last 58 years:
 
