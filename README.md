@@ -44,9 +44,10 @@ So I can do you one better than last 30 years and go back to 1962 when the data 
 > @Huskerpod tweeted out the number in each class this year. It was a lot of Fr and RFr, but i was more interested in how the numbers of upperclassmen stacked up to previous yrs
 
 ### Actual numbers for this year:
-| Rfr | Fr | So | Jr | Sr |
-| - | - | - | - | - |
-| 32 | 46 │ 28  │ 24  │ 24 |
+
+| YEAR | FR. | SO. | JR. | SR. | RFR. |
+| ---- | --- | --- | --- | --- | ---- |
+| 2019 | 46  | 28  | 24  | 24  | 32   |
 
 ### Visual representation over the last 58 years:
 
